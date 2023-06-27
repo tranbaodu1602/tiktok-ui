@@ -10,6 +10,7 @@ root.render(
     <GlobalSttles>
       <App />
     </GlobalSttles>
+    ,
   </React.StrictMode>,
 );
 
