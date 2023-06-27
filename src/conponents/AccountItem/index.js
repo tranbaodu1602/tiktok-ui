@@ -8,12 +8,7 @@ const cx = classNames.bind(styles);
 function AccountItem({ data }) {
   return (
     <Link to={`/@${data.nickname}`} className={cx('wrapper')}>
-      <img
-        className={cx('avatar')}
-        src={data.avatar}
-        // src="https://p16-sign-useast2a.tiktokcdn.com/tos-useast2a-avt-0068-giso/4a15d779150158b8031be772839544e5~c5_100x100.jpeg?x-expires=1687874400&amp;x-signature=GBNUQuvyBpPI8C9V6KEGwLR9ZeI%3D"
-        alt={data.full_name}
-      />
+      <img className={cx('avatar')} src={data.avatar} alt={data.full_name} />
       <div className={cx('info')}>
         <h4 className={cx('name')}>
           <span>{data.full_name}</span>
