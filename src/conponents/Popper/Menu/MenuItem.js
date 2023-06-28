@@ -1,4 +1,4 @@
-import Button from '~/conponents/Button';
+import Button from '~/conponents/Button/Button';
 
 function MenuItem({ data, onClick }) {
   return (
