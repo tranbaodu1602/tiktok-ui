@@ -1,7 +1,7 @@
 import { HeaderOnly } from '~/layouts';
 import config from '~/config';
 
-import Home from '~/pages/Home';
+import Home from '~/pages/Home/Home';
 import Following from '~/pages/Following';
 import Profile from '~/pages/Profile';
 import Upload from '~/pages/Upload';

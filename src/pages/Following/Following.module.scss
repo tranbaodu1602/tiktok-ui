@@ -1,0 +1,91 @@
+.body {
+  max-width: 640px;
+  flex-direction: column;
+  align-items: center;
+}
+.wrapper {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+}
+.wrapper ~ .wrapper {
+  margin-top: 75px;
+}
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.info {
+  margin-left: 8px;
+}
+.name {
+  font-size: 1.8rem;
+  font-weight: bold;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+.check {
+  font-size: 1.4rem;
+  color: #20d5ec;
+  margin-left: 4px;
+}
+.nickname {
+  font-size: 1.6rem;
+  margin-left: 8px;
+  margin-right: 270px;
+}
+.music {
+  margin-left: 15px;
+}
+.video-content {
+  display: flex;
+  // justify-content: center;
+  // align-items: center;
+  flex-direction: row;
+}
+.video {
+  max-height: 700px;
+  width: 75%;
+  margin-top: 15px;
+  margin-left: 50px;
+  border-radius: 6px;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-left: 8px;
+  margin-bottom: 15px;
+}
+.icon {
+  margin: 10px;
+}
+.number {
+  margin-left: 5px;
+}
+.covers {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgb(222, 228, 228);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 6px;
+}
+.tym,
+.comment,
+.share {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25px;
+  height: 25px;
+  border-radius: 9999px;
+}
+.tym {
+  color: rgb(231, 60, 75);
+}
